@@ -1,0 +1,37 @@
+# --- Python & Environment ---
+__pycache__/
+.venv/
+venv/
+*.env
+.ipynb_checkpoints/
+
+# --- Secrets (CRITICAL!) ---
+# Never, ever upload your API keys!
+kaggle.json
+
+# --- Model & Checkpoints (Too Large) ---
+# Your trained "brain". Host this on Google Drive, not GitHub.
+*.pth
+*.pkl
+my_building_model.pth
+output_whu_buildings/
+
+# --- Data (Too Large) ---
+# Your README should link to the Kaggle page instead.
+WHOdataset/
+WHU/
+buildings-instance-segmentation-4/
+*.zip
+*.tif
+*.tiff
+_annotations.json
+
+# --- Final App Output ---
+# These are temporary files created by your app.
+extracted_buildings/
+building_results.zip
+*.png
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
